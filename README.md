@@ -47,6 +47,7 @@
 
 * [`LizeriumServer`](https://github.com/Lizerium/LizeriumServer)
 * [`Lizerium.FLAdmin`](https://github.com/Lizerium/Lizerium.FLAdmin)
+* [`LizeriumAccauntManager`](https://github.com/Lizerium/LizeriumAccauntManager)
 
 ---
 
