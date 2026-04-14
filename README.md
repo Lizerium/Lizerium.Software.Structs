@@ -1,74 +1,86 @@
 <h1 align="center">🖥️ Lizerium.Software.Structs 🖥️</h1>
 
 <p align="center">
-  Структурная карта основных программных продуктов, системных модулей и прикладных узлов экосистемы Lizerium
+  Structural map of core software products, system modules, and application nodes within the Lizerium ecosystem
 </p>
+
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
 
 ---
 
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
 >
-> * [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
+> - [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+> If you are looking for related engineering and supporting tools, start there.
 
-## Назначение
+## Purpose
 
-Этот репозиторий является **структурным индексом основного software-контура** внутри экосистемы **Lizerium**.
+This repository serves as a **structural index of the core software layer** within the **Lizerium** ecosystem.
 
-Он не является основной реализацией, а служит как:
+It is not a primary implementation, but acts as:
 
-* карта ключевых программных компонентов
-* точка навигации по software-архитектуре экосистемы
-* описание ролей прикладных систем
-* место для логической классификации основных программных продуктов
-* слой архитектурного обзора operational software-контура
-
----
-
-## Роль в экосистеме
-
-Этот репозиторий помогает понять:
-
-* какие проекты относятся к основным программным продуктам Lizerium
-* как разделены серверные, клиентские, административные и игровые системные узлы
-* где находятся точки входа в ключевые программные решения
-* как устроена логика взаимодействия между программными компонентами
-* какие приложения формируют прикладное ядро экосистемы
+- a map of key software components
+- a navigation entry point into the ecosystem’s software architecture
+- a description of roles for application-level systems
+- a place for logical classification of core software products
+- an architectural overview layer of the operational software domain
 
 ---
 
-## Что входит в это направление
+## Role in the Ecosystem
 
-### 1. 🌐 Серверная и административная инфраструктура
+This repository helps to understand:
 
-Основные серверные и административные системы, обеспечивающие управление и сопровождение экосистемы.
-
-* [`LizeriumServer`](https://github.com/Lizerium/LizeriumServer)
-* [`Lizerium.FLAdmin`](https://github.com/Lizerium/Lizerium.FLAdmin)
-* [`LizeriumAccauntManager`](https://github.com/Lizerium/LizeriumAccauntManager)
-
----
-
-### 2. 🚀 Распространение и запуск
-
-Программные решения, отвечающие за запуск, обновление и доставку приложений и игровых компонентов.
-
-* [`LizeriumSteam`](https://github.com/Lizerium/LizeriumSteam)
+- which projects belong to the core software products of Lizerium
+- how server, client, administrative, and game system nodes are separated
+- where the entry points to key software solutions are located
+- how interaction logic between software components is structured
+- which applications form the operational core of the ecosystem
 
 ---
 
-### 3. 🎮 Игровые прикладные системы
+## What’s Included in This Direction
 
-Основные игровые прикладные продукты и системные модули, взаимодействующие с классической игровой веткой.
+### 1. 🌐 Server & Administrative Infrastructure
 
-* [`LizeriumFLHook`](https://github.com/Lizerium/LizeriumFLHook)
-* [`FLGameCompanion`](https://github.com/Lizerium/FLGameCompanion)
+Core server and administrative systems that provide management and operational support for the ecosystem.
+
+- [`LizeriumServer`](https://github.com/Lizerium/LizeriumServer)
+- [`Lizerium.FLAdmin`](https://github.com/Lizerium/Lizerium.FLAdmin)
+- [`LizeriumAccauntManager`](https://github.com/Lizerium/LizeriumAccauntManager)
 
 ---
 
-## Архитектурная схема
+### 2. 🚀 Distribution & Launch
+
+Software solutions responsible for application launch, updates, and delivery of game components.
+
+- [`LizeriumSteam`](https://github.com/Lizerium/LizeriumSteam)
+
+---
+
+### 3. 🎮 Game Application Systems
+
+Core game-facing application products and system modules interacting with the classical game branch.
+
+- [`LizeriumFLHook`](https://github.com/Lizerium/LizeriumFLHook)
+- [`FLGameCompanion`](https://github.com/Lizerium/FLGameCompanion)
+
+---
+
+## Architecture Diagram
 
 ```text
 Lizerium.Software.Structs
@@ -82,3 +94,4 @@ Lizerium.Software.Structs
 └── Game Software
     ├── LizeriumFLHook
     └── FLGameCompanion
+```
