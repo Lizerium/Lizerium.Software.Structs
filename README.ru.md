@@ -1,7 +1,10 @@
-<h1 align="center">🖥️ Lizerium.Software.Structs 🖥️</h1>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Lizerium/.github/main/media/logo.png" width="32" style="vertical-align: middle;" />
+  Lizerium.Software.Structs
+</h1>
 
 <p align="center">
-  Структурная карта основных программных продуктов, системных модулей и прикладных узлов экосистемы Lizerium
+  Карта основных программных компонентов экосистемы Lizerium
 </p>
 
 <div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
@@ -19,79 +22,100 @@
 ---
 
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> Этот репозиторий — часть экосистемы **Lizerium**:
 >
-> - [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
+> - https://github.com/Lizerium/Lizerium.Hub
+
+---
+
+## Что это
+
+`Lizerium.Software.Structs` — это карта software-слоя.
+
+Здесь нет основной реализации.  
+Репозиторий нужен, чтобы:
+
+- видеть ключевые приложения
+- понимать, как они разделены
+- быстро переходить к нужным проектам
+
+---
+
+## Как этим пользоваться
+
+> [!TIP]
+> Если ты ищешь сервер, инструмент или приложение:
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
-
-## Назначение
-
-Этот репозиторий является **структурным индексом основного software-контура** внутри экосистемы **Lizerium**.
-
-Он не является основной реализацией, а служит как:
-
-- карта ключевых программных компонентов
-- точка навигации по software-архитектуре экосистемы
-- описание ролей прикладных систем
-- место для логической классификации основных программных продуктов
-- слой архитектурного обзора operational software-контура
+> 1. Найди нужный раздел ниже
+> 2. Перейди в соответствующий репозиторий
+> 3. Работай уже на уровне конкретного проекта
 
 ---
 
-## Роль в экосистеме
+## Компоненты
 
-Этот репозиторий помогает понять:
+### Инфраструктура
 
-- какие проекты относятся к основным программным продуктам Lizerium
-- как разделены серверные, клиентские, административные и игровые системные узлы
-- где находятся точки входа в ключевые программные решения
-- как устроена логика взаимодействия между программными компонентами
-- какие приложения формируют прикладное ядро экосистемы
+Серверные и административные системы:
 
----
-
-## Что входит в это направление
-
-### 1. 🌐 Серверная и административная инфраструктура
-
-Основные серверные и административные системы, обеспечивающие управление и сопровождение экосистемы.
-
-- [`LizeriumServer`](https://github.com/Lizerium/LizeriumServer)
-- [`Lizerium.FLAdmin`](https://github.com/Lizerium/Lizerium.FLAdmin)
-- [`LizeriumAccauntManager`](https://github.com/Lizerium/LizeriumAccauntManager)
+- https://github.com/Lizerium/LizeriumServer
+- https://github.com/Lizerium/Lizerium.FLAdmin
+- https://github.com/Lizerium/LizeriumAccauntManager
 
 ---
 
-### 2. 🚀 Распространение и запуск
+### Распространение
 
-Программные решения, отвечающие за запуск, обновление и доставку приложений и игровых компонентов.
+Системы запуска и обновления:
 
-- [`LizeriumSteam`](https://github.com/Lizerium/LizeriumSteam)
-
----
-
-### 3. 🎮 Игровые прикладные системы
-
-Основные игровые прикладные продукты и системные модули, взаимодействующие с классической игровой веткой.
-
-- [`LizeriumFLHook`](https://github.com/Lizerium/LizeriumFLHook)
-- [`FLGameCompanion`](https://github.com/Lizerium/FLGameCompanion)
+- https://github.com/Lizerium/LizeriumSteam
 
 ---
 
-## Архитектурная схема
+### Игровые системы
 
-```text
+Прикладные компоненты, связанные с игровой логикой:
+
+- https://github.com/Lizerium/LizeriumFLHook
+- https://github.com/Lizerium/FLGameCompanion
+
+---
+
+## Структура
+
+```
+
 Lizerium.Software.Structs
 ├── Infrastructure
-│   ├── LizeriumServer
-│   └── Lizerium.FLAdmin
-│
 ├── Distribution
-│   └── LizeriumSteam
-│
 └── Game Software
-    ├── LizeriumFLHook
-    └── FLGameCompanion
+
 ```
+
+---
+
+## Важно
+
+> [!IMPORTANT]
+> Это слой прикладного software.
+>
+> Data-форматы, Unity runtime и вспомогательные инструменты вынесены отдельно:
+>
+> - https://github.com/Lizerium/Lizerium.Game.Structs
+> - https://github.com/Lizerium/Lizerium.Unity.Structs
+
+---
+
+## Связи
+
+Связан с:
+
+- https://github.com/Lizerium/Lizerium.Frameworks.Structs — валидация и тестирование
+
+---
+
+## Важно
+
+> [!TIP]
+> Если тебе нужен конкретный сервис или инструмент — переходи в соответствующий репозиторий.  
+> Здесь только карта.
