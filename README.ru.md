@@ -61,6 +61,7 @@
 - https://github.com/Lizerium/LizeriumServer
 - https://github.com/Lizerium/Lizerium.FLAdmin
 - https://github.com/Lizerium/LizeriumAccauntManager
+- https://github.com/Lizerium/Lizerium.Restarter.Server
 
 ---
 
